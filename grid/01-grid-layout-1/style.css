@@ -16,8 +16,10 @@ html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: var(--col-size) calc(3*var(--col-size));
-  grid-template-rows: repeat(2, var(--row-size)) calc(5 * var(--row-size)) var(--row-size);
+  grid-template-columns: var(--col-size) calc(3 * var(--col-size));
+  grid-template-rows: repeat(2, var(--row-size)) calc(5 * var(--row-size)) var(
+      --row-size
+    );
   gap: 15px;
 }
 
@@ -36,7 +38,7 @@ html {
 }
 
 .sidebar {
-  background-color: #005B94;
+  background-color: #005b94;
   grid-area: 2 / 1 / -2 / 2;
 }
 
@@ -46,7 +48,7 @@ html {
 }
 
 .article {
-  background-color: #7E1DC3;
+  background-color: #7e1dc3;
   grid-area: 3 / 2;
 }
 
